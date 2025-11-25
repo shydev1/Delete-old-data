@@ -7,13 +7,6 @@ const Test = () => {
     try {
       // Initialize Firebase
       const firebaseConfig = {
-        apiKey: "AIzaSyBo9CUsKlEGUkYTsjdTy5n6Q3X9i7ec-RQ",
-        authDomain: "bcs-public-portal.firebaseapp.com",
-        projectId: "bcs-public-portal",
-        storageBucket: "bcs-public-portal.appspot.com",
-        messagingSenderId: "823547668549",
-        appId: "1:823547668549:web:4f556bc096f5d480e49b2c",
-        measurementId: "G-VEHR0EV9P3"
       };
       if (!firebase.apps.length) {
         firebase.initializeApp(firebaseConfig);
